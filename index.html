@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>  
+<html>  
+  
+<head>  
+    <title>  
+        Rock, paper, scissors
+    </title> 
+</head> 
+  
+<body style = "text-align:center;">  
+      
+    <h1 style = "color:greenyellow;">  
+        RPS - A GAME THAT WILL DECIDE THE FATE OF MANKIND 
+    </h1>  
+      
+    <div id="human_User_Input">
+        <h1>
+            WELCOME HUMAN. YOUR CHOICE WILL DETERMINE THE FATE OF PLANET EARTH. WHAT CHOOSE YOU?
+            
+        </h1>
+    </div>
+
+      
+    <button id = "button" onclick = "generate_Computer_Choice()">  
+        start the game by clicking on this button  
+    </button>  
+
+
+
+      
+    <p id = "computerChoice" style =  
+        "font-size: 24px; font-weight: bold; color: black;">  
+    </p>  
+      
+    <script>   
+        const computerChoice = document.getElementById('computerChoice');  
+        const selection_Of_Game_Choices = ["Rock", "Paper", 
+                "Scissor"]; 
+        
+        const generate_Computer_Choice = () => { 
+            computerChoice.innerHTML =  
+                selection_Of_Game_Choices[Math.floor(Math.random() * selection_Of_Game_Choices.length)]; 
+                
+                let user_Game_Choice = window.prompt("Enter your choice: ");
+                            alert("Your play is " + user_Game_Choice + ". Let us see what the aliens choose...");
+
+
+
+
+        }  
+
+        
+    </script>  
+</body>  
+  
+</html> 
