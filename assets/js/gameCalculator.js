@@ -1,44 +1,34 @@
 
 //Here I define the selection of game choices
-const selection_Of_Game_Choices = ["Rock", "Paper", "Scissors"]; 
+const availableGameChoices = ["Rock", "Paper", "Scissors"]; 
 
 //Here I create the computer choice random generator
 let computerChoice = () => {
-let random_Number_Generator = [Math.floor(Math.random() *  selection_Of_Game_Choices.length)];
-return selection_Of_Game_Choices[random_Number_Generator]
+let randomNumberGenerator = [Math.floor(Math.random() *  availableGameChoices.length)];
+return availableGameChoices[randomNumberGenerator]
 }
 			
-
+//Here is where the game play is executed
 const playGame = (humanPlayerChoice) => {
-//console.log(`Jag spelar mot datorn med ${humanPlayerChoice}`);
-const computer = computerChoice();
-//console.log(`Datorn spelar med ${computer}`);
-        
-	if (humanPlayerChoice === computer){
-			console.log(`Oavgjort`);
-			console.log(`Människan spelar med ${humanPlayerChoice}`)
-			console.log(`Datorn spelar med ${computer}`)        
-			winner.textContent = "It is a draw. We are keeping the Aliens at bay for now..."
-	} else if (
-		(humanPlayerChoice === 'Paper' && computer === 'Rock') ||
-		(humanPlayerChoice === 'Scissors' && computer === 'Paper') ||
-		(humanPlayerChoice === 'Rock' && computer === 'Scissors' )){
-		console.log(`Människan spelar med ${humanPlayerChoice}`)
-		console.log(`Datorn spelar med ${computer}`)
-		console.log(`människa vinner`);
-		winner.textContent = "Congratulations Human, You Have Saved Mankind!"
-	} else {
-		
-		console.log(`Människan spelar med ${humanPlayerChoice}`)
-		console.log(`Datorn spelar med ${computer}`)
-		console.log(`Datorn vinner`)
-		winner.textContent = "The Aliens win, Mankind has fallen!!"
-	};
+	console.log(`Människa spelar med ${humanPlayerChoice}`)
+	playerchoice.textContent = `You chose ${humanPlayerChoice}`
+	
+	const computer = computerChoice();
+	console.log(`Dator spelar med ${computer}`)
+	computerchoice.textContent = `Computer chose ${computer}`
+					
+
+		if (humanPlayerChoice === computer){
+				winner.textContent = "It is a draw. We are keeping the Aliens at bay for now..."
+		} else if (
+			(humanPlayerChoice === 'Paper' && computer === 'Rock') ||
+			(humanPlayerChoice === 'Scissors' && computer === 'Paper') ||
+			(humanPlayerChoice === 'Rock' && computer === 'Scissors' )){	
+			winner.textContent = "Congratulations Human, You Have Saved Mankind!"
+		} else {
+			winner.textContent = "The Aliens win, Mankind has fallen!!"
+		};
 
 
 				
-				
-				
-				
-
-	}
+}
