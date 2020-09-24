@@ -8,4 +8,12 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 
 #### for how to pull user input
-https://www.mikedane.com/web-development/javascript/getting-user-input/#:~:text=In%20JavaScript%2C%20we%20can%20get%20user%20input%20like%20this%3A&text=var%20name%20%3D%20window.,out%20what%20they%20entered%20in.
+https://www.mikedane.com/web-development/javascript/getting-user-input/#:~:text=In%20JavaScript%2C%20we%20can%20get%20user%20input%20like%20this%3A&text=var%20name%20%3D%20window.,out%20what%20they%20entered%20in. 
+
+//I ended up not using this one\\
+
+
+
+##### source for if function and checker function
+https://github.com/alan755/Rock-paper-scissors-game
+https://github.com/developedbyed/rock-paper-scissor
