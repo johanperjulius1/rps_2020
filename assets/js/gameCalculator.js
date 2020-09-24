@@ -7,6 +7,9 @@ let computerChoice = () => {
 let randomNumberGenerator = [Math.floor(Math.random() *  availableGameChoices.length)];
 return availableGameChoices[randomNumberGenerator]
 }
+
+let playerScore = 0;
+let computerScore = 0;
 			
 //Here is where the game play is executed
 const playGame = (humanPlayerChoice) => {
@@ -24,9 +27,15 @@ const playGame = (humanPlayerChoice) => {
 			(humanPlayerChoice === 'Paper' && computer === 'Rock') ||
 			(humanPlayerChoice === 'Scissors' && computer === 'Paper') ||
 			(humanPlayerChoice === 'Rock' && computer === 'Scissors' )){	
+			playerScore++
+			console.log(playerScore)
 			winner.textContent = "Congratulations Human, You Have Saved Mankind!"
+			playerscore.textContent = `${playerScore}`
+
 		} else {
-			winner.textContent = "The Aliens win, Mankind has fallen!!"
+			computerScore++
+				winner.textContent = "The Aliens win, Mankind has fallen!!"
+				computerscore.textContent = `${computerScore}`
 		};
 
 
