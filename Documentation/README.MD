@@ -3,7 +3,14 @@
 ### For creating learning how to create randomizing function I used this:
 
 https://www.geeksforgeeks.org/how-to-select-a-random-element-from-array-in-javascript/
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor#:~:text=The%20Math.,equal%20to%20a%20given%20number.
+
+
+### for how to pull user input
+https://www.mikedane.com/web-development/javascript/getting-user-input/#:~:text=In%20JavaScript%2C%20we%20can%20get%20user%20input%20like%20this%3A&text=var%20name%20%3D%20window.,out%20what%20they%20entered%20in. 
+
+//I ended up not using this one\\
 
 ### source for if function and checker function
 https://github.com/alan755/Rock-paper-scissors-game
@@ -15,4 +22,18 @@ Friend Ludwig
 ### For how to be able to use div element with images as buttons
 https://www.youtube.com/watch?v=jaVNP3nIAv0&t=2085s
 
+### Dependencies:
 
+For acceptance tests: cypress: 5.2.0
+For server:superstatic: 7.0.1
+
+
+### Known issues:
+- Tests with testing frameworks not fully set up
+
+### Future updates
+- Update UI with styling
+- Game animations
+- Build possibility to save score
+- Build possibility to see top list
+- Build in React
