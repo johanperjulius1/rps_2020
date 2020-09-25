@@ -22,3 +22,4 @@ I want to be able to see the cumulated score in a game
 As a user
 In order to compete with my friends
 I want to be able to save my score
+
