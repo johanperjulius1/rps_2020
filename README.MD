@@ -22,5 +22,13 @@ https://github.com/developedbyed/rock-paper-scissor
 For acceptance tests: cypress: 5.2.0
 For server:superstatic: 7.0.1
 
+
 ### Known issues:
-Tests with testing frameworking not fully set up
+- Tests with testing frameworks not fully set up
+
+### Future updates
+- Update UI with styling
+- Game animations
+- Build possibility to save score
+- Build possibility to see top list
+- Build in React
