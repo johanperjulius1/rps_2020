@@ -5,18 +5,15 @@
 //To avoid eventual confusion, the id is spelled in small letters and 
 //the playGame argument in capital
 
-
 const rock = document.getElementById("rock");
 rock.addEventListener("click", () => {
   playGame('Rock')
 })
 
 
-
 const paper = document.getElementById("paper");
 paper.addEventListener("click", () => {
   playGame('Paper')})
-
 
 
 const scissors = document.getElementById("scissors");

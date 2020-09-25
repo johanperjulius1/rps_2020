@@ -1,0 +1,19 @@
+{
+  "name": "rps-jb-2020",
+  "version": "1.0.0",
+  "description": "RPS-challenge with CraftAcademy",
+  "main": "index.html",
+  "repository": "git@github.com:johanperjulius1/rps_2020.git",
+  "author": "johanperjulius1 <johan.per.julius.berglund@gmail.com>",
+  "license": "yes",
+  "private": false,
+  
+  "dependencies": {
+    "cypress": "^5.2.0",
+    "superstatic": "^7.0.1"
+  },
+  "scripts": {
+		"start": "superstatic src --port 3001",
+		"cy:open": "yarn start & cypress open"
+	}
+}
