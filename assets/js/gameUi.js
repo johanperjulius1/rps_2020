@@ -3,7 +3,7 @@
 // clicking on an image, the game is played with the argument of available game chocies.
 
 //To avoid eventual confusion, the id is spelled in small letters and 
-//the playGame argument in capital
+//the available choices (playGame) argument in capital
 
 const rock = document.getElementById("rock");
 rock.addEventListener("click", () => {
