@@ -3,7 +3,7 @@ As a user
 When playing RPS
 I want to have an opponent
 
-## User story 2
+## User story 2 x
 As a user
 When playing the game RPS
 I want to choose my own throw
@@ -12,7 +12,6 @@ I want to choose my own throw
 As a user
 When playing the game RPS
 I want to be able to see the choice of my opponent
-
 
 ## User story 4 x
 As a user
